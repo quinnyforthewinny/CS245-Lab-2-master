@@ -29,7 +29,7 @@ string decrypt(const string &cipher_text, int key)
 		// if the character is an alpha character (A-Z), apply the key to it
 		if (c >= 'A' && c <= 'Z')
 		{
-			c = key;
+			c -= key;
 
 			// adjust for (i.e., wrap) characters below 'A' and above 'Z'
 			if (c > 'Z')
