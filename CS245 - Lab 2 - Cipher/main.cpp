@@ -58,8 +58,8 @@ int main()
 	cout << dp_actual_text << endl;
 
 	// H.Q.
-	std::string hq_actual_text = decrypt("FYL QMJM GQ BCYB", 0);
-	std::string hq_expected_text = "";
+	std::string hq_actual_text = decrypt("FYL QMJM GQ BCYB", -2);
+	std::string hq_expected_text = "HAN SOLOO IS DEAD";
 	cout <<	hq_actual_text << endl;
 
 	// D.S.
